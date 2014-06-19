@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DJViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *humanYearsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *dogYearsTextField;
+- (IBAction)convertAge:(UIButton *)sender;
 
 @end
